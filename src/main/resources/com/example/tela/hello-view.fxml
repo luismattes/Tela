@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="363.0" prefWidth="381.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.tela.HelloController">
+
+    <Label fx:id="conta" contentDisplay="RIGHT" prefHeight="25.0" prefWidth="150.0" text="Conta: ">
+      <graphic>
+         <TextField prefHeight="25.0" prefWidth="100.0" />
+      </graphic></Label>
+
+    <Label fx:id="senha" contentDisplay="RIGHT" prefHeight="25.0" prefWidth="150.0" text="Senha: ">
+        <graphic>
+            <PasswordField prefHeight="25.0" prefWidth="100.0" />
+        </graphic></Label>
+</VBox>
